@@ -39,8 +39,9 @@
     
 ## Licence
 
-[MIT](https://github.com/BrooksWon/BTTask/blob/master/LICENSE)
+BBTask is licensed under the [MIT](https://github.com/BrooksWon/BTTask/blob/master/LICENSE) license. Please see the LICENSE file for more information.
 
-## Author
+## Credits
 
-[Brooks](https://github.com/BrooksWon/)
+BBTask was designed and developed by [Brooks](https://github.com/BrooksWon/).
+
