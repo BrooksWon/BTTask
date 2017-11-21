@@ -39,8 +39,8 @@
     
 ## Licence
 
-[MIT](https://github.com/pixyzehn/PathMenu/blob/master/LICENSE.txt)
+[MIT](https://github.com/BrooksWon/BTTask/blob/master/LICENSE)
 
 ## Author
 
-[pixyzehn](https://github.com/BrooksWon/)
+[Brooks](https://github.com/BrooksWon/)
