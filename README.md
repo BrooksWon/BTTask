@@ -1,5 +1,6 @@
 # BTTask
-安装 `BBTask` 步骤：
+
+## 安装 `BBTask` 步骤：
 
 在你项目的 `Podfile` 中添加以下代码
 `pod 'BBTask'`
@@ -12,3 +13,34 @@
 
 运行完成后，重新执行安装命令
 `pod install`
+
+## 用法：
+
+    // 直接使用
+    BTTask *task = [BTTask taskWithBlock:^NSError *(BTTask *task) {
+        /**
+         TODO
+         
+         */
+        
+        NSLog(@"BTTask test");
+        return nil;
+    }];
+    
+    // 继承，Task1 继承自 BTTask
+    Task1 *task1 = [[Task1 alloc] init];
+    
+    [task1 addDependency:task];
+    
+    NSOperationQueue *queue = [[NSOperationQueue alloc ] init];
+    [queue addOperations:@[task,task1] waitUntilFinished:NO];
+    
+    
+    
+## Licence
+
+[MIT](https://github.com/pixyzehn/PathMenu/blob/master/LICENSE.txt)
+
+## Author
+
+[pixyzehn](https://github.com/BrooksWon/)
